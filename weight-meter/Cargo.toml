@@ -9,20 +9,20 @@ version = "0.4.1-dev"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master", default-features = false}
+frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
 scale-info = {version = "1.0", default-features = false, features = ["derive"]}
 weight-meter-procedural = {path = "weight-meter-procedural", default-features = false}
 
 [dev-dependencies]
 codec = {package = "parity-scale-codec", version = "2.3.1"}
 serde = {version = "1.0.124"}
-sp-io = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
-sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
-sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
+sp-io = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
+sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
+sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
 
-frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
-frame-system = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
-pallet-balances = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master"}
+frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
+frame-system = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
+pallet-balances = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1"}
 
 [features]
 bench = [

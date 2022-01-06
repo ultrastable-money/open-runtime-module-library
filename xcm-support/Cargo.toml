@@ -10,10 +10,10 @@ version = "0.4.1-dev"
 [dependencies]
 codec = {package = "parity-scale-codec", version = "2.3.1", default-features = false}
 
-sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master", default-features = false}
-sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master", default-features = false}
+sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
+sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
 
-frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-master", default-features = false}
+frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
 
 xcm = {git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13", default-features = false}
 xcm-executor = {git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13", default-features = false}
