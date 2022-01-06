@@ -145,7 +145,7 @@ pub mod module {
 		NotCrossChainTransferableCurrency,
 		/// The message's weight could not be determined.
 		UnweighableMessage,
-		// TODO: expand into XcmExecutionFailed(XcmError) after https://github.com/paritytech/substrate/pull/10242 done
+		// TODO: expand into XcmExecutionFailed(XcmError) after https://github.com/ultrastable-money/substrate/pull/10242 done
 		/// XCM execution failed.
 		XcmExecutionFailed,
 		/// Could not re-anchor the assets to declare the fees for the
