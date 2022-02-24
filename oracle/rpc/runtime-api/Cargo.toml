@@ -8,8 +8,8 @@ version = "0.4.1-dev"
 
 [dependencies]
 codec = {package = "parity-scale-codec", version = "2.3.1", default-features = false, features = ["derive"]}
-sp-api = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
-sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-2021-11-1", default-features = false}
+sp-api = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
+sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
 
 [features]
 default = ["std"]
