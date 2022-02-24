@@ -11,12 +11,12 @@ version = "0.4.1-dev"
 codec = {package = "parity-scale-codec", version = "2.3.1", default-features = false}
 scale-info = {version = "1.0", default-features = false, features = ["derive"]}
 serde = {version = "1.0.124", optional = true}
-sp-io = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16", default-features = false}
-sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16", default-features = false}
-sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16", default-features = false}
+sp-io = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
+sp-runtime = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
+sp-std = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
 
-frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16", default-features = false}
-frame-system = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16", default-features = false}
+frame-support = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
+frame-system = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16", default-features = false}
 
 cumulus-primitives-core = {git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.16", default-features = false}
 
@@ -27,8 +27,8 @@ orml-traits = {path = "../traits", default-features = false}
 orml-xcm-support = {path = "../xcm-support", default-features = false}
 
 [dev-dependencies]
-pallet-balances = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16"}
-sp-core = {git = "https://github.com/ultrastable-money/substrate", branch = "polkadot-v0.9.16"}
+pallet-balances = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16"}
+sp-core = {git = "https://github.com/ultrastable-money/substrate", branch = "hydro-dep-polkadot-v0.9.16"}
 
 # cumulus
 cumulus-pallet-dmp-queue = {git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.16"}
